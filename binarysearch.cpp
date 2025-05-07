@@ -56,5 +56,12 @@ void display()
     cout << "     elemen array setelah diurutkan (asc)    \n";
     cout << "=============================================\n";
     for (int j = 0; j < nPanjang; j++)
-    
+    {
+        cout << element[j];
+        if (j < nPanjang - 1)
+        {
+            cout << " --> ";
+        }
+    }
+    cout << endl;
 }
